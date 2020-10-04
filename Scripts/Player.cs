@@ -3,9 +3,11 @@
 public class Player : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private Camera cam;
     private Vector2 direction;
     private Vector2 mousePosition;
+
+    [HideInInspector]
+    public Camera cam;
 
     [Range(0.1f, 1f)]
     public float speed = 0.5f;

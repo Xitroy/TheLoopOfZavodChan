@@ -147,8 +147,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1976871387336190690}
+  - component: {fileID: 6048160326886259610}
+  - component: {fileID: 8773516270487276288}
   m_Layer: 0
-  m_Name: LocationFactory 1
+  m_Name: LocationFactory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176,6 +178,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &6048160326886259610
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976871387336190691}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -4.5311747, y: -0.97000027}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.5996966, y: 4.848368}
+  m_EdgeRadius: 0
+--- !u!114 &8773516270487276288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976871387336190691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb37602876615a14e9f3e7b6910fba98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClipEnter: {fileID: 8300000, guid: bf5617965a51ce848ba23693b460f822, type: 3}
+  audioClipExit: {fileID: 8300000, guid: e37e1ca4b5d9df344becdd16f6a290a8, type: 3}
 --- !u!1 &1976871387500957713
 GameObject:
   m_ObjectHideFlags: 0

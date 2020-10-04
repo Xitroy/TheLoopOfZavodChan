@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -756,7 +756,7 @@ GameObject:
   - component: {fileID: 30571270}
   - component: {fileID: 30571269}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9624,6 +9624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0cc8db3481e05428a6dad4a327e5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 0}
   speed: 0.5
   movementBlocked: 0
 --- !u!50 &343894315
@@ -14468,7 +14469,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a07d55bc1d99f794cb9b4d95c1c73519, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.05
   m_Pitch: 1
@@ -54327,7 +54328,7 @@ PrefabInstance:
     - target: {fileID: 426174176392513251, guid: 8edc321201fc11c49888035ca3af5180,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.99875396
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 426174176392513251, guid: 8edc321201fc11c49888035ca3af5180,
         type: 3}
@@ -54391,7 +54392,7 @@ PrefabInstance:
     - target: {fileID: 1976871387336190690, guid: 39f6d0855bc196c4ba650f17fa1a895c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.6201172
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1976871387336190690, guid: 39f6d0855bc196c4ba650f17fa1a895c,
         type: 3}
