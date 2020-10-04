@@ -32,7 +32,7 @@ public class CheckList : MonoBehaviour
         for (int count = 0; count < actions.Length; count++)
         {
             if (actions[count].actionEnded)
-                transform.GetChild(1+count).GetComponentInChildren<Image>().color = new Color(1, 1, 1, 1);
+                transform.GetChild(1+count).GetComponent<Image>().color = new Color(1, 1, 1, 0);
         }
     }
 }
